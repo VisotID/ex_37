@@ -13,4 +13,8 @@ print("b = ", end="")
 b = float(input())
 print("c = ", end="")
 c = float(input())
-print ("Результат = ", conc_ch(a, b, c)) # вывод результата
+ans = conc_ch(a, b, c)
+print("Результат:")
+print ("a = ", f"{ans[0]:.2f}") # вывод результата
+print ("b = ", f"{ans[1]:.2f}")
+print ("c = ", f"{ans[2]:.2f}")
